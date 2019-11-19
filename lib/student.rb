@@ -22,8 +22,8 @@ class Student
   end
 
   def self.drop_table
-    #sql = <<-SQL
-
+    sql = <<-SQL
+      DROP TABLE 
   end
 
   # Remember, you can access your database connection anywhere in this class
