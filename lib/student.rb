@@ -5,6 +5,8 @@ class Student
 
   def initialize(name, grade, id=nil)
 
+  end
+
 
 
   # Remember, you can access your database connection anywhere in this class
