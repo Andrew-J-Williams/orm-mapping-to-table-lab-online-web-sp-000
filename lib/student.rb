@@ -26,7 +26,7 @@ class Student
       DROP TABLE students
     SQL
 
-    DB[:conn]
+    DB[:conn].execute(sql)
   end
 
   # Remember, you can access your database connection anywhere in this class
